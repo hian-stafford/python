@@ -52,20 +52,4 @@ while True: #laço que testa as chances
     if letra not in secreto: #se a letra digitada não estiver dentro da palavra "secreto"
         chances -= 1 #perde uma chance
     print(f'Voce ainda tem {chances} chances.') #mostra quantas chances o usuário ainda tem para concluir a palavra
-    print() #oula linha
-
-# l2 = ['string', True, 10, -20.5]
-
-# for elem in l2:
-#     print(f'O tipo de elem é {type(elem)} e seu valor é {elem}')
-
-
-# l2 = list (range(0, 100, 8))
-
-# for valor in l2:
-#     print(valor)
-
-
-
-# string = 'ABacanaCDE'
-# print(string[2])
+    print() #pula linha
